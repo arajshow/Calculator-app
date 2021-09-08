@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
         if(result.text.contains("7206637018")) result.text ="Lovkesh Piro"
         if(result.text.contains("9798284411")) result.text ="Nitish Jii"
         if(result.text.contains("6398454025")) result.text ="Pratiksha \uD83C\uDF1A\uD83C\uDF1A"
-        if(result.text.contains("82196 86632")) result.text ="Panka Tripathi"
-        if(result.text.contains("75054 64386")) result.text ="Tara Devi"
-        if(result.text.contains("81714 33933")) result.text ="Oashvi Pandit-ji"
-        if(result.text.contains("73729 98484")) result.text ="Nayak Sahab"
+        if(result.text.contains("8219686632")) result.text ="Panka Tripathi"
+        if(result.text.contains("7505464386")) result.text ="Tara Devi"
+        if(result.text.contains("8171433933")) result.text ="Oashvi Pandit-ji"
+        if(result.text.contains("7372998484")) result.text ="Nayak Sahab"
         if(result.text.contains("9435592596")) result.text ="Jain Bhaiya"
 
 
