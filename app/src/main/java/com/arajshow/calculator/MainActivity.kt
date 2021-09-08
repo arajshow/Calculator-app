@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         if(result.text.contains("7206637018")) result.text ="Lovkesh Piro"
         if(result.text.contains("9798284411")) result.text ="Nitish Jii"
         if(result.text.contains("6398454025")) result.text ="Pratiksha \uD83C\uDF1A\uD83C\uDF1A"
-        if(result.text.contains("8219686632")) result.text ="Panka Tripathi"
+        if(result.text.contains("8219686632")) result.text ="Pankaj Tripathi"
         if(result.text.contains("7505464386")) result.text ="Tara Devi"
         if(result.text.contains("8171433933")) result.text ="Oashvi Pandit-ji"
         if(result.text.contains("7372998484")) result.text ="Nayak Sahab"
