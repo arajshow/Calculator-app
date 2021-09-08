@@ -1,0 +1,2 @@
+com/arajshow/calculator/test/BuildConfig.java
+ com.arajshow.calculator.test.BuildConfig

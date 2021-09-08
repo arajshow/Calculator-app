@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_game.xml.flat",
+        "source": "C:\\Users\\Anand Raj\\Desktop\\android development\\Calculator\\app\\src\\main\\res\\drawable\\btn_game.xml"
+    }
+]

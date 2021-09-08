@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--    row 1-->
+
+    <!-- row 1-->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:background="#FFFFFF"
+        android:gravity="right|bottom|center_vertical"
+        android:maxLength="32"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:background="@drawable/btn_game"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:onClick="onOperator"
+            android:textStyle="bold"
+            android:background="@drawable/btn_game"
+            android:textColor="@color/purple_700"
+            android:text="/" />
+
+
+
+
+    </LinearLayout>
+
+    <!-- row 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:background="@drawable/btn_game"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:background="@drawable/btn_game"
+            android:onClick="onOperator"
+            android:text="*" />
+
+
+
+
+    </LinearLayout>
+
+    <!-- row 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:background="@drawable/btn_game"
+            android:onClick="onOperator"
+            android:text="-" />
+
+
+
+
+    </LinearLayout>
+
+    <!-- row 4-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/decimal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDecimal"
+            android:text="." />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_game"
+            android:onClick="onDigit"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/btn_game"
+            android:onClick="onClear"
+            android:text="clr" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:background="@drawable/btn_game"
+            android:onClick="onOperator"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <!-- row 5-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="="
+            android:textColor="@color/purple_700"
+            android:background="@drawable/btn_game"
+            android:onClick="onEqual"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
