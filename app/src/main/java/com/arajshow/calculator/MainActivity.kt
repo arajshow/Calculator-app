@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         if(result.text.contains("7355292927")) result.text ="Kavya noob"
         if(result.text.contains("6204939940")) result.text ="Raushan babu"
         if(result.text.contains("8894435721")) result.text ="Digu Noob"
-        if(result.text.contains("8091734849")) result.text ="Kshitiz Noob"
+        if(result.text.contains("8091734849")) result.text ="Kshitij Noob"
         if(result.text.contains("8929467816")) result.text ="pranjal hard-coder"
         if(result.text.contains("7981028485")) result.text ="Aarti Piro"
         if(result.text.contains("6301810812")) result.text ="Abhinay Bro\uD83C\uDF7B"
@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
         if(result.text.contains("7206637018")) result.text ="Lovkesh Piro"
         if(result.text.contains("9798284411")) result.text ="Nitish Jii"
         if(result.text.contains("6398454025")) result.text ="Pratiksha \uD83C\uDF1A\uD83C\uDF1A"
-        if(result.text.contains("82196 86632")) result.text ="Panka Tripathi"
-        if(result.text.contains("75054 64386")) result.text ="Tara Devi"
-        if(result.text.contains("81714 33933")) result.text ="Oashvi Pandit-ji"
-        if(result.text.contains("73729 98484")) result.text ="Nayak Sahab"
+        if(result.text.contains("8219686632")) result.text ="Panka Tripathi"
+        if(result.text.contains("7505464386")) result.text ="Tara Devi"
+        if(result.text.contains("8171433933")) result.text ="Oashvi Pandit-ji"
+        if(result.text.contains("7372998484")) result.text ="Nayak Sahab"
         if(result.text.contains("9435592596")) result.text ="Jain Bhaiya"
 
 
